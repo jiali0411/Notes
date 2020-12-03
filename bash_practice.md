@@ -10,3 +10,6 @@
 `gunzip file.gz`.   unpack gz file  
 `unzip file.zip`.   unpack zip file  
 `tar -zvf file.tar.gz`.   unpack tar.gz file   
+
+* compress a folder    
+`tar -zcvf myfolder.tar.gz myfolder` zip into tar.gz format 
