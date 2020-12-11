@@ -13,3 +13,6 @@
 
 * compress a folder    
 `tar -zcvf myfolder.tar.gz myfolder` zip into tar.gz format 
+
+* sort gff3 files based on chromosome order and gene coordinates 
+`sort -k1,1V -k4,4n -k5,5rn -k3,3r unsort.gff3 > sorted.gff3`
