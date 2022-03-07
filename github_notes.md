@@ -11,3 +11,12 @@ Once the new personal token has put in, click `Always allow` button to avoid ent
 
 ### Edit github personal token once it get expired and update with keychain access
 https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain
+
+
+## genome metrics tool
+* [genometools](http://genometools.org/) 
+```
+gt seqstat -contigs -genome <genomesiez> <assembly.fasta> > <output.stats>
+```
+* Merqury - k-mer analysis
+* Bandage - assembly graphical visualization
