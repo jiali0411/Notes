@@ -20,3 +20,13 @@ gt seqstat -contigs -genome <genomesiez> <assembly.fasta> > <output.stats>
 ```
 * Merqury - k-mer analysis
 * Bandage - assembly graphical visualization
+
+
+# Get access to a repo
+```bash
+git remote remove origin
+git remote add origin https://[token]@github.com/[user]/[repo]
+git push
+# if there are errors, asking for branch, do
+git push origin [branch name]
+```
